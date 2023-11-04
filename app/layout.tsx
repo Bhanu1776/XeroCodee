@@ -1,15 +1,13 @@
 import './globals.css';
 import classNames from 'classnames';
 import { Analytics } from '@vercel/analytics/react';
-import { Inter, Nunito_Sans } from 'next/font/google';
+import { Nunito_Sans } from 'next/font/google';
 import Navbar from './components/Navbar';
 
 const Nunito = Nunito_Sans({
   subsets: ['latin'],
   variable: '--font-Nunito',
 });
-
-const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Landing page',
