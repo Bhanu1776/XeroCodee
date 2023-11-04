@@ -1,6 +1,7 @@
 import Environment from './components/Environment';
 import Features from './components/Features';
 import Hero from './components/Hero';
+import Infra from './components/Infra';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Environment/>
       <Features/>
       </div>
+      <Infra/>
     </main>
   );
 }

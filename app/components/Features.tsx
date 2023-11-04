@@ -3,7 +3,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <article className='flex flex-col items-center mt-28'>
+    <section className='flex flex-col items-center mt-28'>
       <button className='bg-blue-200 text-blue-600 font-bold text-xl py-4 px-8 rounded-full'>Features</button>
       <h2 className='font-extrabold text-2xl text-center md:text-4xl mt-14'> <span className='text-blue-800'>Save 1000s</span> of expensive coder hours</h2>
       <p className='font-light text-center mx-4 md:mx-0 text-lg mt-5'>With cloud native technologies, we assist in modernising infrastructure and applications for resilience and scalability</p>
@@ -31,7 +31,7 @@ const Features = () => {
         </div>
 
       </figure>
-    </article>
+    </section>
   )
 }
 
