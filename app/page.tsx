@@ -1,3 +1,4 @@
+import Card from './components/Card';
 import Environment from './components/Environment';
 import Features from './components/Features';
 import Hero from './components/Hero';
@@ -12,6 +13,9 @@ export default function Home() {
       <Features/>
       </div>
       <Infra/>
+      <div className='bg-[#FCFCFF]'>
+        <Card/>
+      </div>
     </main>
   );
 }
