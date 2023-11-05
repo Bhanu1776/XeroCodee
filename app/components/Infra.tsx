@@ -8,7 +8,8 @@ const Infra = () => {
       <div className="grid grid-cols-1 mx-4 lg:mx-0 md:grid-cols-2 grid-rows-2 gap-x-14 lg:gap-x-24 gap-y-10">
         <div className='flex  p-4 px-6 gap-x-4  shadow-lg bg-white pr-9 rounded-2xl'>
           <div className='bg-white rounded-2xl flex justify-center p-2 shadow-lg'>
-            <Image src="/Assets/Infrastructure.png" alt="Infrastructure" height={40} width={50} />
+            <Image loading="lazy"
+ src="/Assets/Infrastructure.png" alt="Infrastructure" height={40} width={50} />
           </div>
           <div className='flex flex-col justify-center'>
             <h2 className='font-bold text-xl'>Infrastructure</h2>
@@ -17,7 +18,8 @@ const Infra = () => {
         </div>
         <div className='flex  p-4 px-6 gap-x-4 shadow-lg bg-white pr-9 rounded-2xl'>
           <div className='bg-white rounded-2xl flex justify-center p-2 shadow-lg'>
-            <Image src="/Assets/security.png" alt="Security" height={40} width={50} />
+            <Image loading="lazy"
+ src="/Assets/security.png" alt="Security" height={40} width={50} />
           </div>
           <div className='flex flex-col justify-center'>
             <h2 className='font-bold text-xl'>Security</h2>
@@ -26,7 +28,8 @@ const Infra = () => {
         </div>
         <div className='flex  p-4 px-6 gap-x-4 shadow-lg bg-white pr-9 rounded-2xl'>
           <div className='bg-white rounded-2xl flex justify-center p-2 shadow-lg'>
-            <Image src="/Assets/networking.png" alt="Networking" height={40} width={50} />
+            <Image loading="lazy"
+ src="/Assets/networking.png" alt="Networking" height={40} width={50} />
           </div>
           <div className='flex flex-col justify-center'>
             <h2 className='font-bold text-xl'>Networking</h2>
@@ -35,7 +38,8 @@ const Infra = () => {
         </div>
         <div className='flex  p-4 px-6 gap-x-4 shadow-lg bg-white pr-9 rounded-2xl'>
           <div className='bg-white rounded-2xl flex justify-center p-2 shadow-lg'>
-            <Image src="/Assets/Application.png" alt="Applications" height={40} width={50} />
+            <Image loading="lazy"
+ src="/Assets/Application.png" alt="Applications" height={40} width={50} />
           </div>
           <div className='flex flex-col justify-center'>
             <h2 className='font-bold text-xl'>Applications</h2>

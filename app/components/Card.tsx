@@ -9,7 +9,8 @@ const Card = () => {
       
 
     <section className='flex mt-14 lg:mt-24 flex-col lg:flex-row'>
-        <Image src="/Assets/graph1.png" alt="Charts" className='lg:-ml-20' height={500} width={700} />
+        <Image loading="lazy"
+ src="/Assets/graph1.png" alt="Charts" className='lg:-ml-20' height={500} width={700} />
         <div className='flex flex-col text-center mb-16 lg:mb-0 lg:text-left lg:-ml-10'>
           <h2 className='font-extrabold  text-4xl lg:mt-10'>Real-Time Risk Monitoring</h2>
           <p className='mt-6'>Real-time risk monitoring across your infrastructure and application ecosystem will help you maintain ongoing compliance with more than 05+ different regulatory standards.</p>
@@ -21,7 +22,8 @@ const Card = () => {
           <h2 className='font-extrabold text-4xl mt-10'>Collaborative <br className='hidden lg:block'/> workflows</h2>
           <p className='lg:mt-6 lg:pr-16'>Share artifacts easily and collaborate with team members, auditors, and pen testers via automated procedures. To manage daily compliance with automatic notifications and reminders, create, assign, and track tasks.</p>
       </div>
-        <Image src="/Assets/graph2.png" alt="Charts" className='lg:order-2 md:ml-20 lg:ml-0' height={250} width={450} />
+        <Image loading="lazy"
+ src="/Assets/graph2.png" alt="Charts" className='lg:order-2 md:ml-20 lg:ml-0' height={250} width={450} />
     </section>
     </div>
     </main>

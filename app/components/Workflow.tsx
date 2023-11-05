@@ -7,13 +7,15 @@ const Workflow = () => {
       <div className='flex flex-col items-center pb-16 max-w-[90rem] bg-[#fafafa] rounded-3xl mx-6 md:mx-14 lg:mx-48 px-4 lg:px-20'>
         <div className='flex items-center'>
           <h1 className='font-extrabold text-2xl text-center md:text-4xl mt-14'>The Xerocodee way</h1>
-          <Image src="/Assets/Rocket.png" className='mt-14 ml-4' alt="Rocket" height={10} width={50} />
+          <Image loading="lazy"
+ src="/Assets/Rocket.png" className='mt-14 ml-4' alt="Rocket" height={10} width={50} />
         </div>
 
         <div className="flex flex-col gap-y-8 items-center">
           <div className="flex flex-col">
             <h2 className='font-bold text-2xl text-center md:text-4xl mt-20'>01</h2>
-            <Image src="/Assets/line.png" alt="line" height={20} width={60} />
+            <Image loading="lazy"
+ src="/Assets/line.png" alt="line" height={20} width={60} />
           </div>
 
           <div className='flex flex-col items-center'>
@@ -28,7 +30,8 @@ const Workflow = () => {
                 <button className='md:py-1 md:px-2 p-0 bg-white'>Infra Components</button>
                 <button className='md:py-1 md:px-2 p-0 bg-white'>Self-Hosted Apps</button>
               </div>
-              <Image src="/Assets/cloud.png" alt="cloud" height={100} width={1000} />
+              <Image loading="lazy"
+ src="/Assets/cloud.png" alt="cloud" height={100} width={1000} />
             </div>
             <div className="flex flex-col text-center md:text-left justify-center">
               <h1 className='font-extrabold text-2xl lg:mt-10'>In Your Cloud</h1>
@@ -42,7 +45,8 @@ const Workflow = () => {
         <div className="flex flex-col gap-y-8 items-center">
           <div className="flex flex-col">
             <h2 className='font-bold text-2xl text-center md:text-4xl mt-20'>02</h2>
-            <Image src="/Assets/line.png" alt="line" height={20} width={60} />
+            <Image loading="lazy"
+ src="/Assets/line.png" alt="line" height={20} width={60} />
           </div>
 
           <div className='flex flex-col items-center'>
@@ -51,28 +55,32 @@ const Workflow = () => {
           </div>
 
           <div className='flex gap-x-4 flex-wrap mt-8 md:flex-nowrap'>
-              <Image src="/Assets/deploy.png" alt="cloud" height={80} width={800} />
+              <Image loading="lazy"
+ src="/Assets/deploy.png" alt="cloud" height={80} width={800} />
             <div className="flex flex-col text-center md:text-left lg:ml-20 mt-6 md:mt-0 justify-center">
               <h1 className='font-extrabold text-2xl lg:mt-10'>Configurable Build and Deploy pipelines</h1>
               <p className='mt-4 font-light'>Portable builds powered by Dagger and continuous deployments powered by ArgoCD - you gain more control of your pipelines with composable custom, build, and deploy stages.</p>
             </div>
           </div>
           <div className='flex gap-x-4 flex-wrap mt-8 md:flex-nowrap'>
-              <Image src="/Assets/deploy2.png" className='order-1 md:order-2' alt="cloud" height={80} width={450} />
+              <Image loading="lazy"
+ src="/Assets/deploy2.png" className='order-1 md:order-2' alt="cloud" height={80} width={450} />
             <div className="flex flex-col text-center lg:mr-10 order-2 md:order-1 mt-6 md:mt-0 md:text-left justify-center">
               <h1 className='font-extrabold text-2xl lg:mt-10'>Push to Deploy</h1>
               <p className='mt-4 font-light'>Just connect your repo with one click and push. Argonaut’s deep integration with GitHub Actions and GitLab pipelines build and deploy your code on every push.</p>
             </div>
           </div>
           <div className='flex gap-x-4 flex-wrap mt-14 md:flex-nowrap'>
-              <Image src="/Assets/runtimes.png" alt="cloud" height={80} width={350} />
+              <Image loading="lazy"
+ src="/Assets/runtimes.png" alt="cloud" height={80} width={350} />
             <div className="flex flex-col text-center md:text-left lg:ml-10 mt-6 md:mt-0 justify-center">
               <h1 className='font-extrabold text-2xl lg:mt-10'>Multiple runtimes</h1>
               <p className='mt-4 font-light'>Quickly deploy apps to containerized or serverless runtimes on your cloud and customize architectures to cost and performance constraints. Deploy on Kubernetes using dockerfiles or buildpacks, AWS Lambda, or GCP Cloud Functions.</p>
             </div>
           </div>
           <div className='flex gap-x-4 flex-wrap mt-14 md:flex-nowrap'>
-              <Image src="/Assets/scale.png" className='order-2' alt="cloud" height={80} width={400} />
+              <Image loading="lazy"
+ src="/Assets/scale.png" className='order-2' alt="cloud" height={80} width={400} />
             <div className="flex flex-col text-center md:text-left order-2 md:order-1 mt-6 md:mt-0 justify-center">
               <h1 className='font-extrabold text-2xl lg:mt-10'>Scale infinitely</h1>
               <p className='mt-4 font-light'>Every deployment is a zero-downtime deployment without you needing to choose custom configurations. You can easily configure auto-scaling, resource limits, and health-check URL to further optimize application uptime.</p>
@@ -86,7 +94,8 @@ const Workflow = () => {
         <div className="flex flex-col gap-y-8 items-center">
           <div className="flex flex-col">
             <h2 className='font-bold text-2xl text-center md:text-4xl mt-20'>03</h2>
-            <Image src="/Assets/line.png" alt="line" height={20} width={60} />
+            <Image loading="lazy"
+ src="/Assets/line.png" alt="line" height={20} width={60} />
           </div>
 
           <div className='flex flex-col mb-14 items-center'>
@@ -95,21 +104,24 @@ const Workflow = () => {
           </div>
 
           <div className='flex gap-x-4 flex-wrap md:flex-nowrap'>
-              <Image src="/Assets/Total.png" alt="cloud" className='lg:ml-24' height={80} width={500} />
+              <Image loading="lazy"
+ src="/Assets/Total.png" alt="cloud" className='lg:ml-24' height={80} width={500} />
             <div className="flex flex-col text-center mb-14 lg:ml-64 md:text-left justify-center">
               <h1 className='font-extrabold  text-2xl lg:mt-10'>Customizable cost dashboards and reports</h1>
               <p className='mt-4 font-light'>Stay on top of your cloud spending with custom cost dashboards and reports — sort, filter, and group by your various accounts, resources, and cloud regions.</p>
             </div>
           </div>
           <div className='flex gap-x-4 flex-wrap md:flex-nowrap'>
-              <Image src="/Assets/costs.png" className='order-2' alt="cloud" height={100} width={700} />
+              <Image loading="lazy"
+ src="/Assets/costs.png" className='order-2' alt="cloud" height={100} width={700} />
             <div className="flex flex-col text-center mb-14 lg:mr-20 order-2 md:order-1 md:text-left justify-center">
               <h1 className='font-extrabold text-2xl lg:mt-10'>Preview infra costs</h1>
               <p className='mt-4 font-light'>See the cost of a specific resource while choosing it (before provisioning). It saves you the hassle of searching through the complex pricing pages of your cloud provider or tools.</p>
             </div>
           </div>
           <div className='flex gap-x-4 flex-wrap md:flex-nowrap'>
-              <Image src="/Assets/observability.png" className='lg:ml-24 w-[30rem] h-40 md:mt-8' alt="cloud" height={50} width={1000} />
+              <Image loading="lazy"
+ src="/Assets/observability.png" className='lg:ml-24 w-[30rem] h-40 md:mt-8' alt="cloud" height={50} width={1000} />
             <div className="flex flex-col text-center mb-14 md:text-left lg:ml-44 justify-center">
               <h1 className='font-extrabold text-2xl lg:mt-10'>Observability from day one</h1>
               <p className='mt-4 font-light'>Comes with built-in Kubernetes pod metrics. Easily plug in monitoring and observability tools of your choice, such as Grafana/Loki, DataDog, Prometheus, and more. Stay on top of your application metrics from day 1.</p>

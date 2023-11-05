@@ -17,17 +17,20 @@ const Features = () => {
         <button className='md:py-1 md:px-7 p-0 bg-white'>Monitoring</button>
         <button className='md:py-1 md:px-7 p-0 bg-white'>Connections</button>
       </div>
-      <Image src="/Assets/Features.png" alt="Features" className='xxsm:px-4 lg:px-0 mt-14 xxsm:h-52 md:max-w-full md:h-auto' height={1000} width={1250} />
+      <Image loading="lazy"
+ src="/Assets/Features.png" alt="Features" className='xxsm:px-4 lg:px-0 mt-14 xxsm:h-52 md:max-w-full md:h-auto' height={1000} width={1250} />
       
       {/* Comparison */}
       <figure className='grid grid-cols-2 place-content-center mt-20 mb-32 lg:gap-x-40'>
         <div className='place-self-center max-h-[25rem]'>
           <h3 className='text-center mt-10 font-bold md:text-xl'>Without XeroCodee</h3>
-      <Image src="/Assets/Without_XeroCodee.png" alt="Xerocodee" className='xxsm:px-4 lg:px-0 mt-16 xxsm:h-52 md:max-w-full md:h-auto' height={200} width={350} />
+      <Image loading="lazy"
+ src="/Assets/Without_XeroCodee.png" alt="Xerocodee" className='xxsm:px-4 lg:px-0 mt-16 xxsm:h-52 md:max-w-full md:h-auto' height={200} width={350} />
         </div>
         <div className='place-self-center max-h-[25rem]'>
           <h3 className='text-center mt-10 md:ml-14 font-bold md:text-xl'>With XeroCodee</h3>
-      <Image src="/Assets/With_XeroCodee.png" alt="Xerocodee" className='xxsm:px-4 lg:px-0 mt-16 xxsm:h-52 md:max-w-full md:h-auto' height={250} width={400 } />
+      <Image loading="lazy"
+ src="/Assets/With_XeroCodee.png" alt="Xerocodee" className='xxsm:px-4 lg:px-0 mt-16 xxsm:h-52 md:max-w-full md:h-auto' height={250} width={400 } />
         </div>
 
       </figure>
