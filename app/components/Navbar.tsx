@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 
 const Navbar = () => (
-  <header className="mx-36 mt-4 flex items-center justify-between rounded-2xl px-16 py-2 shadow-xl">
+  <header className="lg:mx-36 2xl:mx-96 mt-4 flex items-center justify-between rounded-2xl px-16 py-2 shadow-xl">
     <a href="https://www.bhanuportfolio.xyz/" className="flex items-center">
       <Image src="/Assets/logo.png" alt="logo" height={40} width={165} />
     </a>
@@ -70,7 +70,7 @@ const Navbar = () => (
 
     <button
       type="button"
-      className=" hidden rounded-lg border-2 border-blue-600 px-5 py-2 lg:block"
+      className=" hidden md:block rounded-lg border-[3px] border-blue-600 px-6 text-blue-700 py-1 lg:block"
     >
       Sign In
     </button>

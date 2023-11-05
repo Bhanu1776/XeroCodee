@@ -3,15 +3,15 @@ import React from 'react'
 const Footer = () => {
   return (
     
-<footer className="bg-white dark:bg-gray-900 mb-96 p-4">
+<footer className="bg-white lg:ml-40 dark:bg-gray-900 p-4">
     <div className="mx-auto w-full max-w-screen-xl">
       <div className="grid grid-cols-2 gap-8 py-6 lg:py-8 md:grid-cols-4">
         <div>
-            <h2 className="mb-6 text-sm font-semibold uppercase text-white">.</h2>
+            <h2 className="mb-6 text-sm font-bold uppercase">Company</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="/" className=" hover:underline">You get just what you need to run your cloud
-                      workloads--no more, no less. Deploy from our single pane of glass, manage them with ease and scale up as fast as your workload grows</a>
+                    <p>You get just what you need to run your cloud
+                      workloads--no more, no less. Deploy from our single pane of glass, manage them with ease and scale up as fast as your workload grows</p>
                 </li>
                 <li className="mb-4">
                     <div className="flex mt-4 space-x-5 md:mt-0">
