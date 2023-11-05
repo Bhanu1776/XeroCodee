@@ -3,6 +3,7 @@ import Environment from './components/Environment';
 import Features from './components/Features';
 import Hero from './components/Hero';
 import Infra from './components/Infra';
+import Newsletter from './components/Newsletter';
 import Testimonials from './components/Testimonials';
 import Workflow from './components/Workflow';
 
@@ -19,6 +20,7 @@ export default function Home() {
         <Card/>
         <Workflow/>
         <Testimonials/>
+        <Newsletter/>
       </div>
     </main>
   );
