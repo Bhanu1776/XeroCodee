@@ -3,6 +3,7 @@ import Environment from './components/Environment';
 import Features from './components/Features';
 import Hero from './components/Hero';
 import Infra from './components/Infra';
+import Testimonials from './components/Testimonials';
 import Workflow from './components/Workflow';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <div className='bg-[#FCFCFF]'>
         <Card/>
         <Workflow/>
+        <Testimonials/>
       </div>
     </main>
   );
