@@ -10,20 +10,20 @@ import Workflow from './components/Workflow';
 
 export default function Home() {
   return (
-    <main className='bg-[#fcfcff53]'>
+    <main className="bg-[#fcfcff53]">
       <Hero />
-      <div className='bg-[#FCFCFF]'>
-      <Environment/>
-      <Features/>
+      <div className="bg-[#FCFCFF]">
+        <Environment />
+        <Features />
       </div>
-      <Infra/>
-      <div className='bg-[#FCFCFF]'>
-        <Card/>
-        <Workflow/>
-        <Testimonials/>
-        <Newsletter/>
+      <Infra />
+      <div className="bg-[#FCFCFF]">
+        <Card />
+        <Workflow />
+        <Testimonials />
+        <Newsletter />
       </div>
-      <Footer/>
+      <Footer />
     </main>
   );
 }
