@@ -3,7 +3,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-  <section className='lg:flex hidden flex-col items-center mt-20 mb-96 mx-32'>
+  <section className='lg:flex hidden flex-col items-center mt-20 mb-16 mx-32'>
       <h1 className='text-4xl text-center mb-14 mx-3 lg:mx-0 font-extrabold'>See our success stories</h1>
       <div className='flex '>
           <Image src="/Assets/leftArrow.png" className='py-20 px-3' alt="Arrows" height={1000} width={100} />
