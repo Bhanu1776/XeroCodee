@@ -54,16 +54,16 @@ const Footer = () => {
             <h2 className="mb-6 text-sm text-gray-900 uppercase font-bold dark:text-white">Our Links</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">Home</a>
+                    <a href="/" className="hover:text-blue-600">Home</a>
                 </li>
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">About us</a>
+                    <a href="/" className="hover:text-blue-600">About us</a>
                 </li>
                 <li className="mb-4">
-                    <a href="/" className="hover:underline text-blue-600">Integrations</a>
+                    <a href="/" className="hover:text-blue-600 text-blue-600">Integrations</a>
                 </li>
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">Blog</a>
+                    <a href="/" className="hover:text-blue-600">Blog</a>
                 </li>
             </ul>
         </div>
@@ -71,16 +71,16 @@ const Footer = () => {
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Our Services</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">Infrastructure provisioning</a>
+                    <a href="/" className="hover:text-blue-600">Infrastructure provisioning</a>
                 </li>
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">Network infrastructure automation</a>
+                    <a href="/" className="hover:text-blue-600">Network infrastructure automation</a>
                 </li>
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">Cloud optimizations</a>
+                    <a href="/" className="hover:text-blue-600">Cloud optimizations</a>
                 </li>
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">Kubernetes at scale</a>
+                    <a href="/" className="hover:text-blue-600">Kubernetes at scale</a>
                 </li>
             </ul>
         </div>
@@ -88,16 +88,16 @@ const Footer = () => {
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Other Links</h2>
             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">FAQ</a>
+                    <a href="/" className="hover:text-blue-600">FAQ</a>
                 </li>
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">Careers</a>
+                    <a href="/" className="hover:text-blue-600">Careers</a>
                 </li>
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">Privacy Policy</a>
+                    <a href="/" className="hover:text-blue-600">Privacy Policy</a>
                 </li>
                 <li className="mb-4">
-                    <a href="/" className="hover:underline">Support</a>
+                    <a href="/" className="hover:text-blue-600">Support</a>
                 </li>
             </ul>
         </div>

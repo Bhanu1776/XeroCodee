@@ -32,6 +32,7 @@ module.exports = {
       xl: '1280px',
       desktop: '1280px',
       '2xl': '1536px',
+      '3xl': '1600px',
     },
     extend: {
       backgroundImage: {

@@ -109,7 +109,7 @@ const Workflow = () => {
             </div>
           </div>
           <div className='flex gap-x-4 flex-wrap md:flex-nowrap'>
-              <Image src="/Assets/observability.png" className='lg:ml-24' alt="cloud" height={50} width={1000} />
+              <Image src="/Assets/observability.png" className='lg:ml-24 w-[30rem] h-40 md:mt-8' alt="cloud" height={50} width={1000} />
             <div className="flex flex-col text-center mb-14 md:text-left lg:ml-44 justify-center">
               <h1 className='font-extrabold text-2xl lg:mt-10'>Observability from day one</h1>
               <p className='mt-4 font-light'>Comes with built-in Kubernetes pod metrics. Easily plug in monitoring and observability tools of your choice, such as Grafana/Loki, DataDog, Prometheus, and more. Stay on top of your application metrics from day 1.</p>
