@@ -3,8 +3,8 @@ import React from 'react'
 
 const Workflow = () => {
   return (
-    <main className='pt-28 mb-40'>
-      <div className='flex flex-col items-center pb-16 bg-[#fafafa] rounded-3xl mx-6 md:mx-14 lg:mx-48 px-4 lg:px-20'>
+    <main className='pt-28 mb-40 flex justify-center'>
+      <div className='flex flex-col items-center pb-16 max-w-[90rem] bg-[#fafafa] rounded-3xl mx-6 md:mx-14 lg:mx-48 px-4 lg:px-20'>
         <div className='flex items-center'>
           <h1 className='font-extrabold text-2xl text-center md:text-4xl mt-14'>The Xerocodee way</h1>
           <Image src="/Assets/Rocket.png" className='mt-14 ml-4' alt="Rocket" height={10} width={50} />
