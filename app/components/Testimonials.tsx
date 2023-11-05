@@ -7,7 +7,7 @@ const Testimonials = () => {
       <h1 className='text-4xl text-center mb-14 mx-3 lg:mx-0 font-extrabold'>See our success stories</h1>
       <div className='flex '>
           <Image src="/Assets/leftArrow.png" className='py-20 px-3' alt="Arrows" height={1000} width={100} />
-          <article className='flex items-center rounded-r-3xl'>
+          <article className='flex items-center rounded-r-3xl max-w-[60rem]'>
             <Image src="/Assets/comma.png" alt="Arrows" height={30} width={150} />
             <div className='flex flex-col ml-6'>
               <p className='text-justify'>There are many variations of passages of Lorem Ipsum available but the majority have sufferg alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
